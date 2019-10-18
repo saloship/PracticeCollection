@@ -3,7 +3,7 @@ package code;
 public class Main {
 
     public static void main(String[] args) {
-         getProgram(BaseSolutionFactory.REORDER_DATA_LOG_FILE).solveIt();
+         getProgram(BaseSolutionFactory.MOST_COMMON_WORD).solveIt();
     }
 
     public static BaseSolution getProgram(int progType) {
