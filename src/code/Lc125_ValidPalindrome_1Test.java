@@ -14,5 +14,6 @@ public class Lc125_ValidPalindrome_1Test {
         assertTrue(solution.isPalindrome("A man, a plan, a canal: Panama"));
         assertFalse(solution.isPalindrome("race a car"));
         assertTrue(solution.isPalindrome("racecar"));
+        assertTrue(solution.isPalindrome(".,"));
     }
 }
