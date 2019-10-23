@@ -1,5 +1,7 @@
-package code;
+package tests;
 
+import code.BaseSolutionFactory;
+import code.Lc125_ValidPalindrome_1;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -20,7 +20,7 @@ public class Lc125_ValidPalindrome_1 extends BaseSolution{
         System.out.println(isPalindrome(str));
     }
 
-    boolean isPalindrome(String str) {
+    public boolean isPalindrome(String str) {
         if(str == null || str.length() == 0 || str.length() == 1)
             return true;
 
