@@ -1,6 +1,7 @@
 package code;
 
 import code.premium.Lc1119_RemoveVowelsFromString;
+import code.premium.Lc1165_SingleRowKeyboard;
 
 public class BaseSolutionFactory {
 
@@ -9,6 +10,7 @@ public class BaseSolutionFactory {
     public static final int MOST_COMMON_WORD = 819;
     public static final int VALID_PALINDROME = 125;
     public static final int REMOVE_VOWEL = 1119;
+    public static final int SINGLE_ROW_KEYBOARD = 1165;
 
     public static BaseSolution provideBaseSolution(int progType) {
         switch (progType) {
@@ -22,6 +24,8 @@ public class BaseSolutionFactory {
                 return new Lc125_ValidPalindrome_1();
             case REMOVE_VOWEL:
                 return new Lc1119_RemoveVowelsFromString();
+            case SINGLE_ROW_KEYBOARD :
+                return new Lc1165_SingleRowKeyboard();
             default:
                 return null;
         }
