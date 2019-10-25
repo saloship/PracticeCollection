@@ -3,7 +3,7 @@ package code;
 public class Main {
 
     public static void main(String[] args) {
-         getProgram(BaseSolutionFactory.VALID_PALINDROME).solveIt();
+         getProgram(BaseSolutionFactory.SINGLE_ROW_KEYBOARD).solveIt();
     }
 
     public static BaseSolution getProgram(int progType) {
