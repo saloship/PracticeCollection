@@ -3,6 +3,15 @@ package code.premium;
 import code.BaseSolution;
 
 public class Lc1119_RemoveVowelsFromString  extends BaseSolution {
+
+
+    /*
+      @Link https://leetcode.com/problems/remove-vowels-from-a-string/
+      Given a string S, remove the vowels 'a', 'e', 'i', 'o', and 'u' from it, and return the new string.
+
+      Input: "leetcodeisacommunityforcoders"
+      Output: "ltcdscmmntyfrcdrs"
+    */
     @Override
     public void solveIt() {
         System.out.println(removeVowels("abcd"));
