@@ -3,10 +3,10 @@ package code;
 public class Main {
 
     public static void main(String[] args) {
-         getProgram(BaseSolutionFactory.SINGLE_ROW_KEYBOARD).solveIt();
+         getProgram().solveIt();
     }
 
-    public static BaseSolution getProgram(int progType) {
-        return BaseSolutionFactory.provideBaseSolution(progType);
+    public static BaseSolution getProgram() {
+        return new Lc771_JewelsAndStones();
     }
 }
