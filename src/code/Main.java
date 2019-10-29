@@ -7,6 +7,6 @@ public class Main {
     }
 
     public static BaseSolution getProgram() {
-        return new Lc771_JewelsAndStones();
+        return new Lc760_FindAnagramMapping();
     }
 }
