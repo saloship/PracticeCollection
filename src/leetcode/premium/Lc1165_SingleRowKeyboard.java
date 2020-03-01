@@ -1,6 +1,6 @@
-package code.premium;
+package leetcode.premium;
 
-import code.BaseSolution;
+import leetcode.BaseSolution;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
 package tests;
 
-import code.premium.Lc1165_SingleRowKeyboard;
+import leetcode.premium.Lc1165_SingleRowKeyboard;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

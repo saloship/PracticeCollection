@@ -1,6 +1,6 @@
 package tests;
 
-import code.Lc760_FindAnagramMapping;
+import leetcode.Lc760_FindAnagramMapping;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

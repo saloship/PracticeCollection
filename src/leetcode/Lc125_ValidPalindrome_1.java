@@ -1,4 +1,4 @@
-package code;
+package leetcode;
 
 public class Lc125_ValidPalindrome_1 extends BaseSolution{
 

@@ -1,6 +1,6 @@
 package tests;
 
-import code.Lc125_ValidPalindrome_1;
+import leetcode.Lc125_ValidPalindrome_1;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

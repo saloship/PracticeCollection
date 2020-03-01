@@ -1,4 +1,4 @@
-package code;
+package leetcode;
 
 public class Lc1108_DefangingIpAddress extends BaseSolution {
 

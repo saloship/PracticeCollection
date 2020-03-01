@@ -1,9 +1,9 @@
 package tests;
 
-import code.Lc1108_DefangingIpAddress;
+import leetcode.Lc1108_DefangingIpAddress;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class Lc1108_DefangingIpAddressTest {
 

@@ -1,6 +1,6 @@
-package code.premium;
+package leetcode.premium;
 
-import code.BaseSolution;
+import leetcode.BaseSolution;
 
 public class Lc1119_RemoveVowelsFromString  extends BaseSolution {
 
