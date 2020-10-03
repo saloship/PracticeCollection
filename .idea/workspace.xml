@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dbdffc0-4b1d-4ba5-bb99-66c1f6fc1bdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/BaseSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/BaseSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Lc1099_TwoSumLessThanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Lc1099_TwoSumLessThanK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Lc1108_DefangingIpAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Lc1108_DefangingIpAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Lc125_ValidPalindrome_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Lc125_ValidPalindrome_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Lc760_FindAnagramMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Lc760_FindAnagramMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Lc771_JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Lc771_JewelsAndStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Lc819_mostCommonWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Lc819_mostCommonWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Lc937_ReorderDataLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Lc937_ReorderDataLogFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/premium/Lc1119_RemoveVowelsFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/premium/Lc1119_RemoveVowelsFromString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/premium/Lc1165_SingleRowKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/premium/Lc1165_SingleRowKeyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc1099_TwoSumLessThanKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Lc1099_TwoSumLessThanKTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc1108_DefangingIpAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Lc1108_DefangingIpAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc1119_RemoveVowelsFromStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Lc1119_RemoveVowelsFromStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc1165_SingleRowKeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Lc1165_SingleRowKeyboardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc125_ValidPalindrome_1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Lc125_ValidPalindrome_1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc760_FindAnagramMappingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Lc760_FindAnagramMappingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc819_mostCommonWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Lc819_mostCommonWordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/premium/Lc1119_RemoveVowelsFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/premium/Q_1119/RemoveVowelsFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/premium/Lc1165_SingleRowKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/premium/Q_1165/SingleRowKeyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Lc1099_TwoSumLessThanKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1099/TwoSumLessThanKTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Lc1108_DefangingIpAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1108/Lc1108_DefangingIpAddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Lc1119_RemoveVowelsFromStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1119/RemoveVowelsFromStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Lc1165_SingleRowKeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1165/SingleRowKeyboardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Lc125_ValidPalindrome_1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_125/ValidPalindrome_1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Lc760_FindAnagramMappingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_760/FindAnagramMappingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Lc819_mostCommonWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_819/MostCommonWordTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +39,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -62,6 +51,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -69,11 +59,11 @@
       <recent name="tests" />
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="code" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Lc1108_DefangingIpAddressTest.defangIPaddr">
@@ -87,33 +77,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc1099_TwoSumLessThanKTest.twoSumLessThanK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc1108_DefangingIpAddressTest.defangIPaddr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Q_1119.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Lc1099_TwoSumLessThanKTest" />
-      <option name="METHOD_NAME" value="twoSumLessThanK" />
+      <option name="PACKAGE_NAME" value="tests.Q_1108" />
+      <option name="MAIN_CLASS_NAME" value="tests.Q_1108.Lc1108_DefangingIpAddressTest" />
+      <option name="METHOD_NAME" value="defangIPaddr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc1108_DefangingIpAddressTest.defangIPaddr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoSumLessThanKTest.twoSumLessThanK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Q_1119.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Lc1108_DefangingIpAddressTest" />
-      <option name="METHOD_NAME" value="defangIPaddr" />
+      <option name="PACKAGE_NAME" value="tests.Q_1099" />
+      <option name="MAIN_CLASS_NAME" value="tests.Q_1099.TwoSumLessThanKTest" />
+      <option name="METHOD_NAME" value="twoSumLessThanK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,23 +140,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="451" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583047493246">
+    <state x="584" y="281" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601731011515">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
-    <state x="729" y="451" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1792.1039@0.23.1792.1039" timestamp="1583047493246" />
-    <state x="436" y="147" key="CommitChangelistDialog2" timestamp="1583052000468">
+    <state x="584" y="281" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1039@0.23.1792.1039" timestamp="1601731011515" />
+    <state x="656" y="439" width="567" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601731392804">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
-    <state x="436" y="147" key="CommitChangelistDialog2/0.23.1792.1039@0.23.1792.1039" timestamp="1583052000468" />
-    <state x="561" y="253" width="670" height="676" key="search.everywhere.popup" timestamp="1583047516777">
+    <state x="656" y="439" width="567" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1039@0.23.1792.1039" timestamp="1601731392804" />
+    <state x="469" y="278" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601731581722">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
-    <state x="561" y="253" width="670" height="676" key="search.everywhere.popup/0.23.1792.1039@0.23.1792.1039" timestamp="1583047516777" />
+    <state x="469" y="278" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1039@0.23.1792.1039" timestamp="1601731581722" />
   </component>
 </project>
