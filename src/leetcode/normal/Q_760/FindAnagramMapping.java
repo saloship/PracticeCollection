@@ -1,9 +1,11 @@
-package leetcode;
+package leetcode.normal.Q_760;
+
+import leetcode.BaseSolution;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Lc760_FindAnagramMapping extends BaseSolution{
+public class FindAnagramMapping extends BaseSolution {
 
 
   /*

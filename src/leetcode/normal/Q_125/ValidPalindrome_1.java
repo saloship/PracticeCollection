@@ -1,6 +1,8 @@
-package leetcode;
+package leetcode.normal.Q_125;
 
-public class Lc125_ValidPalindrome_1 extends BaseSolution{
+import leetcode.BaseSolution;
+
+public class ValidPalindrome_1 extends BaseSolution {
 
 
      /*

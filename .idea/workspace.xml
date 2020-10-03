@@ -3,15 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="4dbdffc0-4b1d-4ba5-bb99-66c1f6fc1bdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Lc1099_TwoSumLessThanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/Q_1099/TwoSumLessThanK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Lc1108_DefangingIpAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/Q_1108/DefangingIpAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Lc125_ValidPalindrome_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/Q_125/ValidPalindrome_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Lc760_FindAnagramMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/Q_760/FindAnagramMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Lc771_JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/Q_771/JewelsAndStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Lc819_mostCommonWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/Q_819/MostCommonWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Lc937_ReorderDataLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/Q_937/ReorderDataLogFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/premium/Lc1119_RemoveVowelsFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/premium/Q_1119/RemoveVowelsFromString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/premium/Lc1165_SingleRowKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/premium/Q_1165/SingleRowKeyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc1099_TwoSumLessThanKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1099/TwoSumLessThanKTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc1108_DefangingIpAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1108/Lc1108_DefangingIpAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc1119_RemoveVowelsFromStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1119/RemoveVowelsFromStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc1165_SingleRowKeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1165/SingleRowKeyboardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc125_ValidPalindrome_1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_125/ValidPalindrome_1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc760_FindAnagramMappingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_760/FindAnagramMappingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Lc819_mostCommonWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_819/MostCommonWordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Q_1099/TwoSumLessThanKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1099/TwoSumLessThanKTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Q_1108/Lc1108_DefangingIpAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_1108/DefangingIpAddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Q_125/ValidPalindrome_1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_125/ValidPalindrome_1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Q_760/FindAnagramMappingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_760/FindAnagramMappingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Q_819/MostCommonWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Q_819/MostCommonWordTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +44,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -77,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc1108_DefangingIpAddressTest.defangIPaddr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DefangingIpAddressTest.defangIPaddr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetQuestions" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +91,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.Q_1108" />
-      <option name="MAIN_CLASS_NAME" value="tests.Q_1108.Lc1108_DefangingIpAddressTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.Q_1108.DefangingIpAddressTest" />
       <option name="METHOD_NAME" value="defangIPaddr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">

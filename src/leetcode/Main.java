@@ -1,5 +1,7 @@
 package leetcode;
 
+import leetcode.normal.Q_760.FindAnagramMapping;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,6 +9,6 @@ public class Main {
     }
 
     public static BaseSolution getProgram() {
-        return new Lc760_FindAnagramMapping();
+        return new FindAnagramMapping();
     }
 }

@@ -1,8 +1,8 @@
-package leetcode.premium;
+package leetcode.premium.Q_1119;
 
 import leetcode.BaseSolution;
 
-public class Lc1119_RemoveVowelsFromString  extends BaseSolution {
+public class RemoveVowelsFromString extends BaseSolution {
 
 
     /*

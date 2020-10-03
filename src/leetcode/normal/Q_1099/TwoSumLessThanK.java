@@ -1,8 +1,10 @@
-package leetcode;
+package leetcode.normal.Q_1099;
+
+import leetcode.BaseSolution;
 
 import java.util.Arrays;
 
-public class Lc1099_TwoSumLessThanK extends BaseSolution{
+public class TwoSumLessThanK extends BaseSolution {
 
     /*
        @Link https://leetcode.com/problems/two-sum-less-than-k/
