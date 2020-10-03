@@ -1,11 +1,11 @@
-package leetcode.premium;
+package leetcode.premium.Q_1165;
 
 import leetcode.BaseSolution;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Lc1165_SingleRowKeyboard extends BaseSolution {
+public class SingleRowKeyboard extends BaseSolution {
 
     /*
        @Link https://leetcode.com/problems/single-row-keyboard/

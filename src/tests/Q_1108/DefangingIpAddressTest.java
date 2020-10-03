@@ -1,16 +1,16 @@
 package tests.Q_1108;
 
-import leetcode.Lc1108_DefangingIpAddress;
+import leetcode.normal.Q_1108.DefangingIpAddress;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Lc1108_DefangingIpAddressTest {
+public class DefangingIpAddressTest {
 
     @Test
     public void defangIPaddr() {
-        Lc1108_DefangingIpAddress solution =
-                new Lc1108_DefangingIpAddress();
+        DefangingIpAddress solution =
+                new DefangingIpAddress();
 
         assertEquals(solution.defangIPaddr("1.1.1.1"), "1[.]1[.]1[.]1");
     }

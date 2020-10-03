@@ -1,6 +1,8 @@
-package leetcode;
+package leetcode.normal.Q_1108;
 
-public class Lc1108_DefangingIpAddress extends BaseSolution {
+import leetcode.BaseSolution;
+
+public class DefangingIpAddress extends BaseSolution {
 
     @Override
     public void solveIt() {

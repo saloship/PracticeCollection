@@ -1,11 +1,13 @@
-package leetcode;
+package leetcode.normal.Q_937;
+
+import leetcode.BaseSolution;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Lc937_ReorderDataLogFiles extends BaseSolution{
+public class ReorderDataLogFiles extends BaseSolution {
 
     /*
        @Link https://leetcode.com/problems/reorder-data-in-log-files/

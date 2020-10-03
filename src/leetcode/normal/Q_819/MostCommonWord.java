@@ -1,11 +1,13 @@
-package leetcode;
+package leetcode.normal.Q_819;
+
+import leetcode.BaseSolution;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Lc819_mostCommonWord extends BaseSolution {
+public class MostCommonWord extends BaseSolution {
 
     /*
        @Link https://leetcode.com/problems/most-common-word/

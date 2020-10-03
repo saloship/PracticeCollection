@@ -1,9 +1,11 @@
-package leetcode;
+package leetcode.normal.Q_771;
+
+import leetcode.BaseSolution;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Lc771_JewelsAndStones extends BaseSolution {
+public class JewelsAndStones extends BaseSolution {
     /*
     * You're given strings J representing the types of stones that are jewels, and S representing the stones you have.
     * Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.
