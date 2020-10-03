@@ -1,5 +1,6 @@
 package leetcode;
 
+import leetcode.normal.Q_359.LoggerRateLimiter;
 import leetcode.normal.Q_760.FindAnagramMapping;
 
 public class Main {
@@ -9,6 +10,6 @@ public class Main {
     }
 
     public static BaseSolution getProgram() {
-        return new FindAnagramMapping();
+        return new LoggerRateLimiter();
     }
 }
