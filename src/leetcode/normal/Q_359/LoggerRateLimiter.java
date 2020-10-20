@@ -7,10 +7,9 @@ import java.util.Map;
 
 public class LoggerRateLimiter extends BaseSolution {
 
+    public static Logger logger = new Logger();
     /* Design a logger system that receive stream of messages along with its timestamps, each message should be printed if and only if it is not printed in the last 10 seconds.
-
     Given a message and a timestamp (in seconds granularity), return true if the message should be printed in the given timestamp, otherwise returns false.
-
     It is possible that several messages arrive roughly at the same time.
 
     Logger logger = new Logger();
@@ -34,14 +33,16 @@ public class LoggerRateLimiter extends BaseSolution {
     logger.shouldPrintMessage(11,"foo"); returns true;
     */
 
-
     @Override
     public void solveIt() {
-        Logger logger = new Logger();
-        System.out.println(logger.shouldPrintMessage(1, "foo"));
-        System.out.println(logger.shouldPrintMessage(2,"bar"));
-        System.out.println(logger.shouldPrintMessage(3,"foo"));
-        System.out.println(logger.shouldPrintMessage(11,"foo"));
+        System.out.println(shouldPrintMessage(1, "foo"));
+        System.out.println(shouldPrintMessage(2,"bar"));
+        System.out.println(shouldPrintMessage(3,"foo"));
+        System.out.println(shouldPrintMessage(11,"foo"));
+    }
+
+    public boolean shouldPrintMessage(int timeStamp, String message) {
+        return logger.shouldPrintMessage(timeStamp, message);
     }
 
     public static class Logger {
