@@ -21,5 +21,8 @@ public class FruitIntoBasketTest {
 
         int[] arr4 = {3,3,3,1,2,1,1,2,3,3,4};
         assertEquals(solution.totalFruit(arr4), 5);
+
+        int[] arr5 = {0,1,6,6,4,4,6};
+        assertEquals(solution.totalFruit(arr5), 5);
     }
 }
