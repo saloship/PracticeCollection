@@ -43,11 +43,40 @@ public class FruitIntoBasket extends BaseSolution {
 
     @Override
     public void solveIt() {
-
+        int[] arr4 = {1,0,1,4,1,4,1,2,3};
+        System.out.println(totalFruit(arr4));
     }
 
     public int totalFruit(int[] tree) {
-        // write solution here
-        return 0;
+
+        int lastFruit = -1;
+        int secondLastFruit = -1;
+        int lastFruitCount= 0;
+
+        int currentFruitSize = 0;
+        int maxFruitSize = 0;
+
+        for (int fruit : tree) {
+            if(fruit == lastFruit || fruit == secondLastFruit) {
+                currentFruitSize++;
+            } else {
+                currentFruitSize = lastFruitCount+1;
+            }
+
+            if(fruit == lastFruit) {
+                lastFruitCount++;
+            } else {
+                lastFruitCount = 1;
+            }
+
+            if(fruit != lastFruit) {
+                secondLastFruit = lastFruit;
+                lastFruit = fruit;
+            }
+
+            maxFruitSize = Math.max(currentFruitSize, maxFruitSize);
+        }
+
+        return maxFruitSize;
     }
 }
