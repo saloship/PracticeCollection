@@ -36,4 +36,8 @@ Explanation: S becomes "c" while T becomes "b".
     public void solveIt() {
 
     }
+
+    public boolean backspaceCompare(String S, String T) {
+        return false;
+    }
 }
