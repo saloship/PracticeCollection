@@ -1,19 +1,12 @@
 package codesignal.tree
 
 fun main() {
-    val tree = hasPathWithGivenSum.Tree(5, hasPathWithGivenSum.Tree(7, null, null), null)
+    val tree = Tree(5, Tree(7, null, null), null)
     println(hasPathWithGivenSum().solution(tree, 12))
 }
 
 class hasPathWithGivenSum {
-
     // Given a binary tree t and an integer s, determine whether there is a root to leaf path in t such that the sum of vertex values equals s.
-
-    data class Tree<T>(
-        var value: T,
-        var left: Tree<T>? = null,
-        var right: Tree<T>? = null
-    )
 
     fun solution(t: Tree<Int>?, s: Int): Boolean {
         if (t == null)
