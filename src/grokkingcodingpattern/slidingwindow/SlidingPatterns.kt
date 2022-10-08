@@ -25,4 +25,21 @@ object SlidingPatterns {
         }
         return avgArray
     }
+
+    private fun maxSumSubArrayWithSizeK(array: IntArray, windowSize: Int): Int {
+        var maxSumInt = 0
+        var minIndex = 0
+        var currentSum = 0;
+
+        for(endIndex in 0..array.size -1) {
+            currentSum = currentSum + array[endIndex]
+
+            if(endIndex >= windowSize-1) {
+                maxSumInt = Math.max(currentSum, maxSumInt)
+                currentSum -= array[minIndex]
+                minIndex++
+            }
+        }
+        return maxSumInt
+    }
 }
