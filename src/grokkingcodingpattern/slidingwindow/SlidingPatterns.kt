@@ -48,4 +48,23 @@ object SlidingPatterns {
         }
         return maxSumInt
     }
+
+    private fun finMinArrayWithSumK(array: IntArray, sum: Int): Int {
+        var windowStart = 0;
+        var currentSum = 0;
+        var currentSize = 0;
+        var minSize = 0;
+
+        for(windowEnd in 0..array.size-1) {
+            currentSum += array[windowEnd]
+
+            while (currentSum >= sum && windowStart <= windowEnd) {
+                minSize = Math.min(minSize, currentSize)
+                currentSize--
+                currentSum -= array[windowStart]
+                windowStart++
+            }
+        }
+        return minSize
+    }
 }
