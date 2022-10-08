@@ -1,10 +1,16 @@
 package grokkingcodingpattern.slidingwindow
 
 fun main() {
-    SlidingPatterns.testAverageSizeOfK()
+   // SlidingPatterns.testAverageSizeOfK()
+    SlidingPatterns.testMaxSumSubArrayWithSizeK()
 }
 
 object SlidingPatterns {
+
+    fun testMaxSumSubArrayWithSizeK() {
+        val inputArray = intArrayOf(1, 3, 2, 6, -1, 4, 1, 8, 2)
+        println(maxSumSubArrayWithSizeK(inputArray, 3) == 13)
+    }
 
     fun testAverageSizeOfK() {
         val inputArray = intArrayOf(1, 3, 2, 6, -1, 4, 1, 8, 2)
