@@ -4,7 +4,8 @@ fun main() {
    // SlidingPatterns.testAverageSizeOfK()
    // SlidingPatterns.testMaxSumSubArrayWithSizeK()
    // SlidingPatterns.testFinMinArrayWithSumK()
-    SlidingPatterns.testLongestSubStringWithKDistinct()
+   // SlidingPatterns.testLongestSubStringWithKDistinct()
+    SlidingPatterns.testFruitCountOfTwoTypes()
 }
 
 object SlidingPatterns {
@@ -27,6 +28,11 @@ object SlidingPatterns {
     fun testLongestSubStringWithKDistinct() {
         var testString1 = "jhjhjahjhjahsjahsjhjhjasasas"
         println(longestSubStringWithKDistinct(testString1, 3) == 12)
+    }
+
+    fun testFruitCountOfTwoTypes() {
+        var inputArray = charArrayOf('A', 'B', 'C', 'B', 'B', 'C')
+        println(maxFruitCountOfTwoTypes(inputArray) == 5)
     }
 
     private fun getAverageOfSizeK(array: IntArray, windowSize: Int): Array<Float?> {
@@ -102,12 +108,12 @@ object SlidingPatterns {
         return maxLength
     }
 
-    private fun maxFruitCountOfTwoTypes(str: String): Int {
+    private fun maxFruitCountOfTwoTypes(str: CharArray): Int {
         var maxFruitsType: Int = 2
         var map = hashMapOf<Char, Int>()
         var maxLength = Integer.MIN_VALUE
         var startIndex = 0
-        for (endIndex in 0..str.length - 1) {
+        for (endIndex in 0..str.size - 1) {
             var endChar: Char = str[endIndex]
             map[endChar] = map.getOrDefault(endChar, 0) + 1
 
