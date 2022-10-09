@@ -101,4 +101,27 @@ object SlidingPatterns {
 
         return maxLength
     }
+
+    private fun maxFruitCountOfTwoTypes(str: String): Int {
+        var maxFruitsType: Int = 2
+        var map = hashMapOf<Char, Int>()
+        var maxLength = Integer.MIN_VALUE
+        var startIndex = 0
+        for (endIndex in 0..str.length - 1) {
+            var endChar: Char = str[endIndex]
+            map[endChar] = map.getOrDefault(endChar, 0) + 1
+
+            while(map.size > maxFruitsType) {
+                var startChar = str[startIndex]
+                map[startChar] = map.get(startChar)!! - 1
+                if(map[startChar] == 0) {
+                    map.remove(startChar)
+                }
+                startIndex++
+            }
+            maxLength = Math.max(maxLength, (endIndex - startIndex + 1))
+        }
+
+        return maxLength
+    }
 }
