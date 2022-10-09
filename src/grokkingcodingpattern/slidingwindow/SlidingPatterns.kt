@@ -3,7 +3,8 @@ package grokkingcodingpattern.slidingwindow
 fun main() {
    // SlidingPatterns.testAverageSizeOfK()
    // SlidingPatterns.testMaxSumSubArrayWithSizeK()
-    SlidingPatterns.testFinMinArrayWithSumK()
+   // SlidingPatterns.testFinMinArrayWithSumK()
+    SlidingPatterns.testLongestSubStringWithKDistinct()
 }
 
 object SlidingPatterns {
@@ -21,6 +22,11 @@ object SlidingPatterns {
     fun testAverageSizeOfK() {
         val inputArray = intArrayOf(1, 3, 2, 6, -1, 4, 1, 8, 2)
         (getAverageOfSizeK(inputArray, 5).forEach { print("${it}, ") })
+    }
+
+    fun testLongestSubStringWithKDistinct() {
+        var testString1 = "jhjhjahjhjahsjahsjhjhjasasas"
+        println(longestSubStringWithKDistinct(testString1, 3) == 12)
     }
 
     private fun getAverageOfSizeK(array: IntArray, windowSize: Int): Array<Float?> {
