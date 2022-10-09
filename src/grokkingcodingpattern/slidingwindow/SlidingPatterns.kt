@@ -72,4 +72,27 @@ object SlidingPatterns {
         }
         return minSize
     }
+
+    private fun longestSubStringWithKDistinct(str: String, maxChars: Int): Int {
+        var map = hashMapOf<Char, Int>()
+        var maxLength = Integer.MIN_VALUE
+        var startIndex = 0
+        for (endIndex in 0..str.length - 1) {
+            var endChar: Char = str[endIndex]
+            map[endChar] = map.getOrDefault(endChar, 0) + 1
+
+            while(map.size > maxChars) {
+                var startChar = str[startIndex]
+                map[startChar] = map.get(startChar)!! - 1
+                if(map[startChar] == 0) {
+                    map.remove(startChar)
+                }
+                startIndex++
+            }
+
+            maxLength = Math.max(maxLength, (endIndex - startIndex + 1))
+        }
+
+        return maxLength
+    }
 }
