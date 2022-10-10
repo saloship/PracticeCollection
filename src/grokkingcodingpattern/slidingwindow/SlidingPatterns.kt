@@ -130,4 +130,18 @@ object SlidingPatterns {
 
         return maxLength
     }
+
+    private fun maxStringLenghtWithDistinctChars(str: String): Int {
+        var windowStart = 0
+        val map = hashMapOf<Char, Int>()
+        var maxWidnowLenght = 0;
+        for (windowEnd in str.indices) {
+            if (map.containsKey(str[windowEnd])) {
+                windowStart = map.get(str[windowEnd])!! + 1
+            }
+            map.put(str[windowEnd], windowEnd)
+            maxWidnowLenght = Math.max(maxWidnowLenght, windowEnd-windowStart+1)
+        }
+        return maxWidnowLenght
+    }
 }
