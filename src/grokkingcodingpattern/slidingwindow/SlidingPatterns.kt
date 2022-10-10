@@ -149,4 +149,25 @@ object SlidingPatterns {
         }
         return maxWidnowLenght
     }
+
+    private fun largestSubStringAfterReplacingKLetters(str: String, maxSubAllowed: Int): Int {
+        var windowStart = 0
+        var map = hashMapOf<Char, Int>()
+        var maxFrequesncyCurrently = 0
+        var maxLength = 0
+
+        for(windowEnd in str.indices) {
+            var endChar = str[windowEnd]
+            map[endChar] = map.getOrDefault(endChar, 0) + 1
+            maxFrequesncyCurrently = Math.max(map[endChar]!!, maxFrequesncyCurrently)
+
+            if(windowEnd - windowStart + 1 - maxFrequesncyCurrently > maxSubAllowed) {
+                var startChar = str[windowStart]
+                map[startChar] = map.getOrDefault(startChar, 0) - 1
+                windowStart++
+            }
+            maxLength = Math.max(maxLength, windowEnd - windowStart + 1)
+        }
+        return maxLength
+    }
 }
