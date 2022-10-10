@@ -5,7 +5,8 @@ fun main() {
    // SlidingPatterns.testMaxSumSubArrayWithSizeK()
    // SlidingPatterns.testFinMinArrayWithSumK()
    // SlidingPatterns.testLongestSubStringWithKDistinct()
-    SlidingPatterns.testFruitCountOfTwoTypes()
+   // SlidingPatterns.testFruitCountOfTwoTypes()
+    SlidingPatterns.testLongestSubStringWithKDistinct()
 }
 
 object SlidingPatterns {
@@ -33,6 +34,10 @@ object SlidingPatterns {
     fun testFruitCountOfTwoTypes() {
         var inputArray = charArrayOf('A', 'B', 'C', 'B', 'B', 'C')
         println(maxFruitCountOfTwoTypes(inputArray) == 5)
+    }
+
+    fun testMaxStringLenghtWithDistinctChars() {
+        print(maxStringLenghtWithDistinctChars("aabccbb") == 3)
     }
 
     private fun getAverageOfSizeK(array: IntArray, windowSize: Int): Array<Float?> {
